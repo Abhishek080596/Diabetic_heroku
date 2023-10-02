@@ -1,0 +1,20 @@
+conda env list
+
+to check the packages of specific env
+conda activate base
+pip list
+
+- conda create -n project_1 pyton==3.7
+#run these in terminal or conda prompt
+
+#switch to particular env
+- conda activate project_1
+
+#now install the required
+- pip install numpt pandas scikit-learn
+
+#to save all packages on file, run below code to automatically create requirements.txt file
+- pip freeze > requirements.txt
+
+#to install all the packages from text files
+- pip install -r requirements.txt
